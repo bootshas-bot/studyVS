@@ -4,6 +4,3 @@
 
 ## 專案列表
 - nametime
-- HelloWorld
-- tellmetime
-
