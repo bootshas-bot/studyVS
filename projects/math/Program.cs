@@ -1,9 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Enter 2 number:");
-var input1 = Console.ReadLine();
-var input2 = Console.ReadLine();
-int num1 = int.Parse(input1);
-int num2 = int.Parse(input2);
-Console.Write($"{Environment.NewLine}Two number total is {num1+num2}");
-Console.Write($"{Environment.NewLine}Press Enter to exit...");
-Console.Read();
+using System.Security.Cryptography.X509Certificates;
+
+var O = (X: 1099, Y: 2000);
+var slope = (double)O.Y / O.X;
+Console . WriteLine($"A Line form the origin to the point {O} has a slope of {slope}");
