@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+<<<<<<< HEAD
 using System;
 
 public interface IAnimal
@@ -46,3 +47,11 @@ public class Program
         cat.Move();
     }
 }
+=======
+Console.WriteLine("What is your name?");
+var name = Console.ReadLine();
+var currentDate = DateTime.Now;
+Console.WriteLine($"{Environment.NewLine}Hello, {name}, on {currentDate:d} at {currentDate:t}!");
+Console.Write($"{Environment.NewLine}Press Enter to exit...");
+Console.Read();
+>>>>>>> 4fb18311540c30c3eab447ffe0f2a19dc3a2b16c
